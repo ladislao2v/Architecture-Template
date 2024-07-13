@@ -1,2 +1,2 @@
 # Architecture-Template
-Architecture Template based on State Machine with Zenject, UniTask, UniRX, DOTween
+Architecture Template based on my own State Machine asset with Zenject, UniTask, UniRX, DOTween
