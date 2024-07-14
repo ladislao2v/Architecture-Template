@@ -7,8 +7,8 @@ namespace Code.Services.AssetProvider
     public interface IAssetProvider
     {
         void Load();
-        UniTask<T> GetPrefabFromAsset<T>(AssetReference assetReference) where T : class;
-        UniTask<T> GetPrefabFromAsset<T>(string assetKey) where T : class;
+        UniTask<T> GetAsset<T>(AssetReference assetReference) where T : class;
+        UniTask<T> GetAsset<T>(string assetKey) where T : class;
         void Clean();
     }
 }

@@ -1,11 +1,12 @@
-﻿using UnityEngine;
+﻿using System.Threading.Tasks;
+using Cysharp.Threading.Tasks;
+using UnityEngine;
+using UnityEngine.AddressableAssets;
 
 namespace Code.Services.ConfigService
 {
     public interface IConfigService
     {
-        void Load<T>(string path) where T : ScriptableObject;
-        
-        T[] Get<T>() where T : ScriptableObject;
+        UniTask<T> Get<T>(string assetKey) where T : ScriptableObject;
     }
 }

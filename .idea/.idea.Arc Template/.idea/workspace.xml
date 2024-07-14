@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fc51c2f-0085-4184-97da-5a256976e9cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arc Template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arc Template/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/AssetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/AssetProvider.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/IAssetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/IAssetProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/ResourcesPaths.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/AssetKeys.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/ResourcesPaths.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/AssetKeys.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Services/ConfigService/IConfigService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/ConfigService/IConfigService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/PrefabFactory/DiPrefabFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/Factories/PrefabFactory/DiPrefabFactory.cs" afterDir="false" />
     </list>
@@ -68,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720950049510</updated>
-      <workItem from="1720950055895" duration="7209000" />
+      <workItem from="1720950055895" duration="7663000" />
     </task>
     <servers />
   </component>

@@ -14,7 +14,7 @@ namespace Code.Services.AssetProvider
         {
             await Addressables.InitializeAsync();
         }
-        public async UniTask<T> GetPrefabFromAsset<T>(AssetReference assetReference) where T : class
+        public async UniTask<T> GetAsset<T>(AssetReference assetReference) where T : class
         {
             if (_completed.TryGetValue(assetReference.AssetGUID, out AsyncOperationHandle completedHandle))
                 return completedHandle.Result as T;
@@ -25,7 +25,7 @@ namespace Code.Services.AssetProvider
             return await SubscribeCompletedHandle(handle, assetKey);
         }
 
-        public async UniTask<T> GetPrefabFromAsset<T>(string assetKey) where T : class
+        public async UniTask<T> GetAsset<T>(string assetKey) where T : class
         {
             if (_completed.TryGetValue(assetKey, out AsyncOperationHandle completedHandle))
                 return completedHandle.Result as T;
