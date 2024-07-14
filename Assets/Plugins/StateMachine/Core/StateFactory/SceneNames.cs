@@ -1,4 +1,4 @@
-﻿namespace Code.Services.Factories.StateFactory
+﻿namespace Plugins.StateMachine.Core.StateFactory
 {
     public static class SceneNames
     {

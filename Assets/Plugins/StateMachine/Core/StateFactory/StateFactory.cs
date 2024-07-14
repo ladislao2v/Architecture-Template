@@ -1,8 +1,8 @@
 ﻿using System;
-using Code.StateMachine.Core.Interfaces;
+using Plugins.StateMachine.Core.Interfaces;
 using Zenject;
 
-namespace Code.Services.Factories.StateFactory
+namespace Plugins.StateMachine.Core.StateFactory
 {
     public class StateFactory : IStateFactory
     {

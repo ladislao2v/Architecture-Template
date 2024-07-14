@@ -1,7 +1,7 @@
 ﻿using System;
-using Code.StateMachine.Core.Interfaces;
+using Plugins.StateMachine.Core.Interfaces;
 
-namespace Code.Services.Factories.StateFactory
+namespace Plugins.StateMachine.Core.StateFactory
 {
     public interface IStateFactory
     {

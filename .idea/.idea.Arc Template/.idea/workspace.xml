@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0fc51c2f-0085-4184-97da-5a256976e9cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/ConfigService.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/ConfigService/IConfigService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/ConfigService/IConfigService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/Factories/PrefabFactory/DiPrefabFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/GameDataService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/GameDataService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/IData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/IData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/IGameDataService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/IGameDataService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/ISavable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/ISavable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/SaveDataService.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/SaveDataService/ISaveDataService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/SaveDataService/ISaveDataService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/SaveDataService/PlayerPrefsDataSaver.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/SaveDataService/PlayerPrefsDataSaver.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Bootstrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Bootstrapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/CompositionRoot/GameInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/CompositionRoot/GameInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/PrefabFactory/PrefabFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/Factories/PrefabFactory/DiPrefabFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/PrefabFactory/PrefabFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/StateFactory.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StateMachine/Core/StateFactory.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/StateFactory/IStateFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StateMachine/Core/StateFactory/IStateFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/StateFactory/IStateFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StateMachine/Core/StateFactory/IStateFactory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/StateFactory/SceneNames.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StateMachine/Core/StateFactory/SceneNames.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/StateFactory/SceneNames.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StateMachine/Core/StateFactory/SceneNames.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/StateFactory/StateFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StateMachine/Core/StateFactory/StateFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/StateFactory/StateFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StateMachine/Core/StateFactory/StateFactory.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Interfaces.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Interfaces/IState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Interfaces/IState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Interfaces/IStateMachine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Interfaces/IStateMachine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Interfaces/IUpdatableState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Interfaces/IUpdatableState.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/StateMachine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/StateMachine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Transition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Transition.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/States/BootState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/StateMachine/States/BootState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/States/MenuState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/StateMachine/States/MenuState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2jER3K3iANApeVXEpwsFqLr4TnV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="rider.run.widget.enabled.cache" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fc51c2f-0085-4184-97da-5a256976e9cb" name="Changes" comment="" />
+      <created>1720950049510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720950049510</updated>
+      <workItem from="1720950055895" duration="2599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

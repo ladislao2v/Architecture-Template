@@ -5,12 +5,12 @@ using Zenject;
 
 namespace Code.Services.Factories.PrefabFactory
 {
-    public class PrefabFactory : IPrefabFactory
+    public class DiPrefabFactory : IPrefabFactory
     {
         private readonly IInstantiator _instantiator;
         private readonly IAssetProvider _assetProvider;
-
-        public PrefabFactory(IInstantiator instantiator, IAssetProvider assetProvider)
+        
+        public DiPrefabFactory(IInstantiator instantiator, IAssetProvider assetProvider)
         {
             _instantiator = instantiator;
             _assetProvider = assetProvider;

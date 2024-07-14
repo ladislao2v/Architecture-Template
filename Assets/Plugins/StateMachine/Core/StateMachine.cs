@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Code.Services.Factories.StateFactory;
-using Code.StateMachine.Core.Interfaces;
+using Plugins.StateMachine.Core.Interfaces;
+using Plugins.StateMachine.Core.StateFactory;
 
-namespace Code.StateMachine.Core
+namespace Plugins.StateMachine.Core
 {
     public class StateMachine : IStateMachine
     {

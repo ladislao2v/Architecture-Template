@@ -1,6 +1,6 @@
 ﻿using Code.Services.AssetProvider;
-using Code.Services.Factories.StateFactory;
 using Code.Services.SceneLoader;
+using Plugins.StateMachine.Core.StateFactory;
 using Zenject;
 
 namespace Code.CompositionRoot
@@ -27,7 +27,7 @@ namespace Code.CompositionRoot
 
         private void BindStateMachine()
         {
-            Container.BindInterfacesAndSelfTo<StateMachine.Core.StateMachine>().AsSingle();
+            Container.BindInterfacesAndSelfTo<Plugins.StateMachine.Core.StateMachine>().AsSingle();
         }
 
         private void BindStateFactory()

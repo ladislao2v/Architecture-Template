@@ -1,6 +1,5 @@
-﻿using Code.Services.Factories.StateFactory;
-using Code.Services.SceneLoader;
-using Code.StateMachine.Core.Interfaces;
+﻿using Code.Services.SceneLoader;
+using Plugins.StateMachine.Core.Interfaces;
 using UnityEngine;
 
 namespace Code.StateMachine.States

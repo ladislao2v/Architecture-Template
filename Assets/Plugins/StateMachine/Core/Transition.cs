@@ -1,7 +1,6 @@
 ﻿using System;
-using Code.StateMachine.Core.Interfaces;
 
-namespace Code.StateMachine.Core
+namespace Plugins.StateMachine.Core
 {
     public class Transition
     {
