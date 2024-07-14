@@ -5,51 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fc51c2f-0085-4184-97da-5a256976e9cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/ConfigService.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/ConfigService/IConfigService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/ConfigService/IConfigService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/Factories/PrefabFactory/DiPrefabFactory.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/GameDataService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/GameDataService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/IData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/IData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/IGameDataService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/IGameDataService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/ISavable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/ISavable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/SaveDataService.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/SaveDataService/ISaveDataService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/SaveDataService/ISaveDataService.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/SaveDataService/PlayerPrefsDataSaver.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Services/SaveDataService/PlayerPrefsDataSaver.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Bootstrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Bootstrapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/CompositionRoot/GameInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/CompositionRoot/GameInstaller.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/PrefabFactory/PrefabFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/Factories/PrefabFactory/DiPrefabFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/PrefabFactory/PrefabFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/StateFactory.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StateMachine/Core/StateFactory.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/StateFactory/IStateFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StateMachine/Core/StateFactory/IStateFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/StateFactory/IStateFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StateMachine/Core/StateFactory/IStateFactory.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/StateFactory/SceneNames.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StateMachine/Core/StateFactory/SceneNames.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/StateFactory/SceneNames.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StateMachine/Core/StateFactory/SceneNames.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/StateFactory/StateFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StateMachine/Core/StateFactory/StateFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/StateFactory/StateFactory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StateMachine/Core/StateFactory/StateFactory.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Interfaces.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Interfaces/IState.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Interfaces/IState.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Interfaces/IStateMachine.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Interfaces/IStateMachine.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Interfaces/IUpdatableState.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Interfaces/IUpdatableState.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/StateMachine.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/StateMachine.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Transition.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/Core/Transition.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/States/BootState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/StateMachine/States/BootState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/States/MenuState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/StateMachine/States/MenuState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Arc Template/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Arc Template/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/AssetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/AssetProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/IAssetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/IAssetProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/ResourcesPaths.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/AssetKeys.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/ResourcesPaths.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/AssetKeys.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/ConfigService/IConfigService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/ConfigService/IConfigService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/Factories/PrefabFactory/DiPrefabFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/Factories/PrefabFactory/DiPrefabFactory.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720950049510</updated>
-      <workItem from="1720950055895" duration="2599000" />
+      <workItem from="1720950055895" duration="7209000" />
     </task>
     <servers />
   </component>
