@@ -10,9 +10,13 @@ namespace Code.Services.AssetProvider
         private Dictionary<string, AsyncOperationHandle> _completed = new();
         private Dictionary<string, List<AsyncOperationHandle>> _handles = new();
 
-        public async void Load()
+        public bool IsLoaded { get; private set; } = false;
+
+        public async UniTask Load()
         {
             await Addressables.InitializeAsync();
+
+            IsLoaded = true;
         }
         public async UniTask<T> GetAsset<T>(AssetReference assetReference) where T : class
         {

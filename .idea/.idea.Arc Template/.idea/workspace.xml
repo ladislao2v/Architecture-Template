@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fc51c2f-0085-4184-97da-5a256976e9cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/SceneLoader/ISceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/SceneLoader/ISceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/SceneLoader/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/SceneLoader/SceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/AssetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/AssetProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/IAssetProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/AssetProvider/IAssetProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/ISavable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Services/GameDataService/ISavable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/StateMachine/States/BootState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/StateMachine/States/BootState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/StateMachine/Core/Interfaces/IState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/StateMachine/Core/Interfaces/IState.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1720950049510</updated>
-      <workItem from="1720950055895" duration="8625000" />
+      <workItem from="1720950055895" duration="9608000" />
     </task>
     <servers />
   </component>
