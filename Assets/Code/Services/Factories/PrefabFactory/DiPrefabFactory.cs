@@ -25,6 +25,15 @@ namespace Code.Services.Factories.PrefabFactory
                 .InstantiatePrefabForComponent<T>(prefab);
         }
 
+        public async UniTask<T> Create<T>(AssetReference assetReference) where T : MonoBehaviour
+        {
+            var prefab = await _assetProvider
+                .GetAsset<T>(assetReference); 
+            
+            return _instantiator
+                .InstantiatePrefabForComponent<T>(prefab);
+        }
+
         public T Create<T>(T prefab) where T : MonoBehaviour
         {
             return _instantiator
